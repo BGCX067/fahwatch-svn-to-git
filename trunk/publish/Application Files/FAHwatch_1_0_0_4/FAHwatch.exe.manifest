@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.0.0.4" name="FAHwatch.exe" publicKeyToken="989a987298cd7b5b" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="CHEVRON.ICO" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FAHwatch" version="1.0.0.4" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FAHwatch.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FAHwatch.exe" size="123904">
+      <assemblyIdentity name="FAHwatch" version="1.0.0.4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>w+s9CfvCg5Y8jutrpZuVA9z/Bgk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CHEVRON.ICO" size="2862">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>iAcGpXBwpqzo86GWZO8BuYqnphg=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Marvin-PC\Marvin" issuerKeyHash="4cfb052289ddc2d14ec2d1b2ebfcc6a4ab03ec71" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>6MBK2+jIH0giIm3es2xZ1g4je2A=</DigestValue></Reference></SignedInfo><SignatureValue>Bo6uTWJolEW8r0EeMnwzEVBfHE53CPsLPoUNO6fL5j+N70l/JZhPG6/49YGkodxM7JNF2PV+KfmJ9zip6hlwQrX5EuGD1G9D3mmh3atxBuC4F66IUxi+WvNTcoHgn4ub5KDvv8HYBc0AvXXlIpZHF8o4aj+FJzF/jfAGK/G7QIA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qbONFBf4j/v3wVIQdZc20xhvsdWxChN1WZ+S85wSFMOvPnbWepxjoaDiWUjMxeNvKHRQVFq09iMzYOMEvlKkaELyQ4ei7euGGmJwIq7wGSJCuCmHPVo+lm0qX6nA15xpy1tFhrs1T5sNGFEfqLKx5uwyEmpnsFgSzdXahNFW/QM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="607b230ed6596cb3de6d2222481fc8e8db4ac0e8" Description="" Url=""><as:assemblyIdentity version="1.0.0.4" name="FAHwatch.exe" publicKeyToken="989a987298cd7b5b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Marvin-PC\Marvin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>wilKj11CnsD+zsLW4STtD1ATETo=</DigestValue></Reference></SignedInfo><SignatureValue>FJ3+ZQ3ieYgeMdd6oWmVfWmd2X5wPUv1aXEGb6Z+fURyNdGWmI+Tp/0xUpbvKwfacj4P/HEqiR7fJeZOmg35whG+WHPq85TyGhSUottEb5LsN0wxMU1TFoM9B/BYcxXYero1sWOThsejGxBNaTWZwfunt05abr/hs4IuuMHUKPg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qbONFBf4j/v3wVIQdZc20xhvsdWxChN1WZ+S85wSFMOvPnbWepxjoaDiWUjMxeNvKHRQVFq09iMzYOMEvlKkaELyQ4ei7euGGmJwIq7wGSJCuCmHPVo+lm0qX6nA15xpy1tFhrs1T5sNGFEfqLKx5uwyEmpnsFgSzdXahNFW/QM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQ80YZdWNR0Z5FL4i1WzUOlDANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAATQBhAHIAdgBpAG4ALQBQAEMAXABNAGEAcgB2AGkAbjAeFw0wODExMDUxOTMxMThaFw0wOTExMDYwMTMxMThaMCsxKTAnBgNVBAMeIABNAGEAcgB2AGkAbgAtAFAAQwBcAE0AYQByAHYAaQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCps40UF/iP+/fBUhB1lzbTGG+x1bEKE3VZn5LznBIUw68+dtZ6nGOhoOJZSMzF428odFBUWrT2IzNg4wS+UqRoQvJDh6Lt64YaYnAirvAZIkK4KYc9Wj6WbSpfqcDXnGnLW0WGuzVPmw0YUR+osrHm7DISamewWBLN1dqE0Vb9AwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAFW8BBrnWtz15AA2qY7EcyebK6yS49bqRtLjsWpPQX+Oeo2Min58DSd6OzMvHO1HoFbapeZblRKAJdkdYNwFEQiW+vB5cVN/SciAPDFvM9uwxVGGpjpRE27m5qNK2SAVJ3XWm4j7thJGt6fWoy7acynWQ0mCa4GTm5qKLrzfCAGQ</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

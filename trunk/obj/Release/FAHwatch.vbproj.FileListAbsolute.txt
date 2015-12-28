@@ -1,0 +1,17 @@
+C:\Users\Marvin\Documents\Visual Studio 2008\Projects\FAHwatch\FAHwatch\bin\Release\FAHwatch.exe
+C:\Users\Marvin\Documents\Visual Studio 2008\Projects\FAHwatch\FAHwatch\bin\Release\FAHwatch.pdb
+C:\Users\Marvin\Documents\Visual Studio 2008\Projects\FAHwatch\FAHwatch\bin\Release\FAHwatch.xml
+C:\Users\Marvin\Documents\Visual Studio 2008\Projects\FAHwatch\FAHwatch\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Marvin\Documents\Visual Studio 2008\Projects\FAHwatch\FAHwatch\obj\Release\FAHwatch.frmEUE.resources
+C:\Users\Marvin\Documents\Visual Studio 2008\Projects\FAHwatch\FAHwatch\obj\Release\FAHwatch.Resources.resources
+C:\Users\Marvin\Documents\Visual Studio 2008\Projects\FAHwatch\FAHwatch\obj\Release\FAHwatch.vbproj.GenerateResource.Cache
+C:\Users\Marvin\Documents\Visual Studio 2008\Projects\FAHwatch\FAHwatch\obj\Release\FAHwatch.exe
+C:\Users\Marvin\Documents\Visual Studio 2008\Projects\FAHwatch\FAHwatch\obj\Release\FAHwatch.xml
+C:\Users\Marvin\Documents\Visual Studio 2008\Projects\FAHwatch\FAHwatch\obj\Release\FAHwatch.pdb
+C:\Users\Marvin\Documents\Visual Studio 2008\Projects\FAHwatch\FAHwatch\obj\Release\FAHwatch.frmOpt.resources
+C:\Users\Marvin\Documents\Visual Studio 2008\Projects\FAHwatch\FAHwatch\obj\Release\FAHwatch.frmLOG.resources
+C:\Users\Marvin\Documents\Visual Studio 2008\Projects\FAHwatch\FAHwatch\bin\Release\FAHwatch.exe.manifest
+C:\Users\Marvin\Documents\Visual Studio 2008\Projects\FAHwatch\FAHwatch\bin\Release\FAHwatch.application
+C:\Users\Marvin\Documents\Visual Studio 2008\Projects\FAHwatch\FAHwatch\obj\Release\FAHwatch.exe.manifest
+C:\Users\Marvin\Documents\Visual Studio 2008\Projects\FAHwatch\FAHwatch\obj\Release\FAHwatch.application
+C:\Users\Marvin\Documents\Visual Studio 2008\Projects\FAHwatch\FAHwatch\obj\Release\FAHwatch.frmProjectBrowser.resources
